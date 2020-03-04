@@ -1,0 +1,28 @@
+FORMAT dicom
+
+%header
+
+REPLACE AcquisitionDate var:std_date
+REPLACE ContentDate var:std_date
+REPLACE InstitutionAddress var:std_name
+REPLACE InstitutionName var:std_name
+
+REPLACE InstanceCreationDate var:std_date
+REPLACE IssueDateOfImagingServiceRequest var:std_date
+
+REPLACE PatientAge var:std_number
+REPLACE PatientBirthDate var:std_date
+REPLACE PatientID var:patient_id
+REPLACE PatientName var:patient_id
+REPLACE PatientWeight var:std_number
+
+REPLACE PerformedProcedureStepEndDate var:std_date
+REPLACE PerformedProcedureStepStartDate var:std_date
+
+REPLACE PerformedStationAETitle var:std_name
+REPLACE PerformingPhysicianName var:std_name
+REPLACE RequestingPhysician var:std_name
+REPLACE ScheduledPerformingPhysicianName var:std_name
+
+REPLACE SeriesDate var:std_date
+REPLACE StudyDate var:std_date
