@@ -1,0 +1,21 @@
+universe = docker
+docker_image = docker-registry.champalimaud.pt/python3.6:efb520646c741d6b47ddf4f40b72502e32485722
+executable = shell_script.sh
+arguments = N4algorithm_it.py
+ 
+# File transfer
+transfer_input_files = N4algorithm_it.py
+transfer_output_files = T2_BiasFieldCorrected_Cluster
+ 
+# Change according to your app needs
+request_cpus = 1
+request_memory = 1024
+request_gpus = 0
+ 
+# Logging
+stream_output = True # If you dont need realtime status set to False
+output = output.txt
+error = error.txt
+log = log.txt
+ 
+queue
