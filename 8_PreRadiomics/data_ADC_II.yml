@@ -1,0 +1,33 @@
+featureClass:
+  firstorder: []
+  glcm: []
+  gldm: []
+  glrlm: []
+  glszm: []
+  ngtdm: []
+  shape: []
+imageType:
+  Gradient: {}
+  LoG:
+    sigma:
+    - 1.0
+    - 2.0
+    - 3.0
+    - 4.0
+    - 5.0
+  Original: {}
+  Wavelet: {}
+setting:
+  binWidth: 56.8481104
+  correctMask: true
+  distances:
+  - 1
+  - 2
+  - 3
+  force2D: true
+  normalize: false
+  padDistance: 5
+  resampledPixelSpacing:
+  - 1.95
+  - 1.95
+  - 7
